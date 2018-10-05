@@ -50,14 +50,16 @@
 %     Personal Data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Essentials
-\name{Liam Niehus-Staab} % could add last name in extra brackets, but bolds it
+\name{Liam Niehus-Staab} 
+\position{}
 \address{1115 8th Ave., Grinnell, IA 50112}
-\mobile{+1 (269) 491-4686}
+
 %%% Social
+\mobile{+1 (269) 491-4686}
 \email{liamniehusstaab@gmail.com}
 %\homepage{N/A}
 \github{niehusst}
-%\linkedin{N/A} % make my linkedin presentable
+\linkedin{liamniehusstaab} 
 
 
 
@@ -70,9 +72,202 @@
 \makecvheader
 
 %%% Import contents
-\import{\sectiondir}{education.tex}
-\import{\sectiondir}{experience.tex}
-\import{\sectiondir}{skills.tex}
-\import{\sectiondir}{extracurricular.tex}
+
+%education
+\cvsection{Education}
+\begin{cventries}
+  \cventry
+    {Bachelor of Arts Computer Science Major}
+    {Grinnell College}
+    {Grinnell IA, USA}
+    {Expected Graduation 2020}
+    {
+      \begin{cvitems}
+        \item{GPA: 3.65}
+        \item {Deans list Spring and Fall 2016}
+      \end{cvitems}
+    }
+\end{cventries}
+
+%---------------------------------------------------------------------------------------
+%experience
+%---------------------------------------------------------------------------------------
+\cvsection{Experience}
+\begin{cventries}
+%cook
+\cventry
+  {Concordia Language Villages, El Lago Del Bosque}
+  {Village Cook}
+  {Bemidji, MN}
+  {July-August 2016}
+  {
+    \begin{cvitems}
+      \item {Worked under the head chef fixing daily meals for campers and
+    washing dishes.}
+    \end{cvitems}
+  }
+
+  %counselor
+  \cventry
+    {Concordia Language Villages, El Lago Del Bosque}
+    {Camp Counselor}
+    {Bemidji, MN}
+    {July-August 2017}
+    {
+      \begin{cvitems}
+        \item {Worked under Diane Tess as a Spanish immersion camp counselor, teaching children aged 6-18 Spanish conversational skills, and cultural knowledge.}
+      \end{cvitems}
+    }
+
+  %frc programmer
+  \cventry
+    {First Robotics Competition, Team 6002}
+    {Robot Programmer}
+    {Kalamazoo, MI}
+    {Oct. 2015 - May 2016}
+    {
+      \begin{cvitems}
+        \item {Wrote Java code for the robot’s basic abilities and autonomous mode.}
+      \end{cvitems}
+    }
+
+  %volunteer at animal shelter
+  \cventry
+    {Poweshiek Animal League Shelter}
+    {Volunteer}
+    {Grinnell, IA}
+    {Sep. 2016 - Current}
+    {
+      \begin{cvitems}
+        \item {Cleaned, cared for, and socialized cats and their environment.}
+      \end{cvitems}
+    }
+
+  %MAP project
+  \cventry
+    {Undergrad Research Project, Image Synthesis for Machine Learning}
+    {Research Assistant}
+    {Grinnell, IA}
+    {June-August 2018}
+    {
+      \begin{cvitems}
+        \item {Developed a program to generate synthetic training data for a text recognizing CNN.}
+        \item{See code at https://github.com/niehusst/MapTextSynthesizer}
+      \end{cvitems}
+    }
+
+  %Captain of grinnell ultimate team
+  \cventry
+    {Grinnelliphants Ultimate Frisbee}
+    {Team Captain}
+    {Grinnell, IA}
+    {August 2018 - May 2019}
+    {
+      \begin{cvitems}
+        \item {Gained experience as a teacher and leader.}
+      \end{cvitems}
+    }
+
+  %grammiegram web app
+  \cventry
+    {The GrammieGram Company}
+    {Full Stack Developer}
+    {Grinnell, IA}
+    {April 2018 - Current}
+    {
+      \begin{cvitems}
+        \item {Developed the backend for user preferences using Python and the Django framework}
+        \item {Constructed and maintained unit testing for the majority of the web app}
+        \item {Designed frontend UI for the contact management page using JavaScript and Bootstrap}
+        \item {Gained experience working remotely with a team using Git version control}
+      \end{cvitems}
+    }
+
+  %grammiegram android
+  \cventry
+    {The GrammieGram Company}
+    {Head of Android Development}
+    {Grinnell, IA}
+    {August 2018 - Current}
+    {
+      \begin{cvitems}
+        \item {Lead a team of three in creating the GrammieGram Android app and integrating it with the rest of our platform.}
+	\item {Practiced test driven development strategies}
+      \end{cvitems}
+    }
+
+  %member of appdev grinnell
+  \cventry
+    {AppDev Grinnell}
+    {Software Engineer}
+    {Grinnell, IA}
+    {January 2018 - Current}
+    {
+      \begin{cvitems}
+        \item {Developed the Grinnell Directory Android application}
+	\item {Gained experience writing tests using JUnit and Espresso}
+      \end{cvitems}
+    }
+
+\end{cventries}
+
+
+%---------------------------------------------------------------------------------------
+%skills
+%---------------------------------------------------------------------------------------
+\cvsection{Skills}
+\cvsubsection{Computer}
+\begin{cvskills}
+  \cvskill
+    {Programming} % Category
+    {JAVA, C/C++, Python, JavaScript} % Skills
+
+  \cvskill
+    {Web} % Category
+    {Django, HTML5, CSS} % Skills
+\end{cvskills}
+
+
+% Spoken Languages
+\cvsubsection{Spoken Languages}
+\begin{cvskills}
+  \cvskill
+    {Languages} % Category
+    {English, Spanish} % Skills
+
+\end{cvskills}
+
+
+%---------------------------------------------------------------------------------------
+%extracurriculars
+%---------------------------------------------------------------------------------------
+\cvsection{Interests & Activities}
+\begin{cventries}
+% ultimate
+  \cventry
+    {}
+    {Ultimate Frisbee}
+    {}
+    {}
+    {
+      \begin{cvitems}
+        \item {I enjoy being part of a team and cooperating with others}
+      \end{cvitems}
+    }
+
+%android
+    \cventry
+      {}
+      {Android App Development}
+      {}
+      {}
+      {
+        \begin{cvitems}
+          \item {Making useful apps that help me with daily problems or tasks}
+        \end{cvitems}
+      }
+
+\end{cventries}
+
 
 \end{document}
