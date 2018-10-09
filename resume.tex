@@ -12,6 +12,7 @@
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
+\usepackage{hyperref}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,7 +60,7 @@
 \email{liamniehusstaab@gmail.com}
 %\homepage{N/A}
 \github{niehusst}
-\linkedin{liam-niehus-staab} 
+\linkedin{liam-niehus-staab-a84295127} 
 
 
 
@@ -101,7 +102,7 @@
   %grammiegram android
   \cventry
     {GrammieGram LLC}
-    {Co-Founder and Head of Android Development}
+    {Head of Android Development}
     {Grinnell, IA}
     {August 2018 - Present}
     {
@@ -114,7 +115,7 @@
   %member of appdev grinnell
   \cventry
     {AppDev Grinnell}
-    {Software Engineer}
+    {AppDev Junior Engineer}
     {Grinnell, IA}
     {January 2018 - Present}
     {
@@ -134,7 +135,7 @@
       \begin{cvitems}
         \item {Developed a program to generate synthetic training data for a text recognizing CNN.}
         \item{Training the neural network on data from our synthetic data generator improved performance over training on industry standard scene text data sets.}
-	\item{See the research code at https://github.com/niehusst/MapTextSynthesizer}
+	\item{See the research code at \underline{\href{https://github.com/niehusst/MapTextSynthesizer}{https://github.com/niehusst/MapTextSynthesizer}}}
       \end{cvitems}
     }
 
@@ -149,8 +150,8 @@
         \item {Developed the backend for user preferences using Python and the Django framework}
         \item {Constructed and maintained unit testing for the majority of the web app}
         \item {Designed frontend UI for the contact management page using JavaScript and Bootstrap}
-        \item {Gained experience working remotely with a team using Git version control}
-	\item {See the website at https://grammiegram.com}
+        %\item {Gained experience working remotely with a team using Git version control}
+	\item {See the website at \underline{\href{https://grammiegram.com}{https://grammiegram.com}}}
       \end{cvitems}
     }
 
@@ -197,26 +198,26 @@
 %---------------------------------------------------------------------------------------
 %extracurriculars
 %---------------------------------------------------------------------------------------
-\cvsection{Interests and Activities}
-\begin{cventries}
+%\cvsection{Interests and Activities}
+%\begin{cventries}
 
 % Captain of grinnell ultimate team
-  \cventry
-    {Grinnellephants Ultimate Frisbee}
-    {Team Captain}
-    {Grinnell, IA}
-    {August 2018 - Present}
-    {
-      \begin{cvitems}
-        \item {Gained experience as a teacher and leader.}
-        \item {I work with others to regularly plan and execute practices 3 times a week.}
-      \end{cvitems}
-    }
+%  \cventry
+%    {Grinnellephants Ultimate Frisbee}
+%    {Team Captain}
+%    {Grinnell, IA}
+%    {August 2018 - Present}
+%    {
+%      \begin{cvitems}
+%        \item {Gained experience as a teacher and leader.}
+%        \item {I work with others to regularly plan and execute practices 3 times a week.}
+%      \end{cvitems}
+%    }
 
 %android fun [ONLY PUT ACTUAL APPS IVE MADE HERE]
 %    \cventry
-%      {Personal Projects}
-%      {Android App Development}
+%      {Personal Projects} 
+%      {Android App Development} %only mention specific projects
 %      {}
 %      {}
 %      {
@@ -225,5 +226,28 @@
 %        \end{cvitems}
 %      }
 
+%\end{cventries}
+
+
+%---------------------------------------------------------------------------------------
+%awards section
+%---------------------------------------------------------------------------------------
+\cvsection{Awards}
+\begin{cventries}
+
+% HackUIowa Compliance Accomplice
+    \cventry
+	{HackUIowa}
+ 	{Compliance Accomplice}
+	{Oct 2018}
+	{}
+	{
+	  \begin{cvitems}
+	     \item{Developed fully functional email middleware to detect and prevent SEC non-compliance using Google cloud NLP.}
+	     \item{Won “Best Commercial Potential” award from John Pappajohn Entrepreneurial Center and “Best use of Google Cloud” award from Google.}
+	     \item{See project at \underline{\href{https://github.com/niehusst/ComplianceAccomplice}{https://github.com/niehusst/ComplianceAccomplice}}} 
+	  \end{cvitems}
+	}
 \end{cventries}
+
 \end{document}
