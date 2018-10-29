@@ -63,7 +63,6 @@
 \linkedin{liam-niehus-staab-a84295127} 
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,11 +71,9 @@
 %%% Make a header for CV with personal data
 \makecvheader
 
-%%% contents
+%%% Import contents
 
-%---------------------------------------------------------------------------------------
 %education
-%---------------------------------------------------------------------------------------
 \cvsection{Education}
 \begin{cventries}
   \cventry
@@ -98,6 +95,62 @@
 %---------------------------------------------------------------------------------------
 \cvsection{Experience}
 \begin{cventries}
+%cook
+\cventry
+  {Concordia Language Villages, El Lago Del Bosque}
+  {Village Cook}
+  {Bemidji, MN}
+  {July-August 2016}
+  {
+    \begin{cvitems}
+      \item {Worked under the head chef fixing daily meals for campers and
+    washing dishes.}
+    \end{cvitems}
+  }
+
+  %counselor
+  \cventry
+    {Concordia Language Villages, El Lago Del Bosque}
+    {Camp Counselor}
+    {Bemidji, MN}
+    {July-August 2017}
+    {
+      \begin{cvitems}
+        \item {Worked under Diane Tess as a Spanish immersion camp counselor, teaching children aged 6-18 Spanish conversational skills, and cultural knowledge.}
+      \end{cvitems}
+    }
+
+
+  %MAP project
+  \cventry
+    {Undergraduate Research Project, Image Synthesis for Machine Learning}
+    {Research Assistant}
+    {Grinnell, IA}
+    {June-August 2018}
+    {
+      \begin{cvitems}
+        \item {Developed a C/C++ program to generate synthetic training data for a text recognizing CNN.}
+        \item{Training with data generator improved model accuracy by 10\% over results when trained on industry standard data sets.}
+	\item{See the research code at \underline{\href{https://github.com/niehusst/MapTextSynthesizer}{https://github.com/niehusst/MapTextSynthesizer}}}
+      \end{cvitems}
+    }
+
+
+  %grammiegram web app
+  \cventry
+    {GrammieGram LLC}
+    {Co-Founder and Full Stack Developer}
+    {Grinnell, IA}
+    {April-August 2018}
+    {
+      \begin{cvitems}
+        \item {Developed the backend for user preferences using Python and the Django framework.}
+        \item {Constructed and maintained unit testing for the GrammieGram web app.}
+        \item {Designed frontend UI for the contact management page using JavaScript and Bootstrap.}
+        %\item {Gained experience working remotely with a team using Git version control.}
+	\item {See the website at \underline{\href{https://grammiegram.com}{https://grammiegram.com}}}
+      \end{cvitems}
+    }
 
   %grammiegram android
   \cventry
@@ -124,48 +177,6 @@
 	\item {Gained experience writing tests using JUnit, Mockito and Espresso}
       \end{cvitems}
     }
-
-  %MAP project
-  \cventry
-    {Undergraduate Research Project, Image Synthesis for Machine Learning}
-    {Research Assistant}
-    {Grinnell, IA}
-    {June-August 2018}
-    {
-      \begin{cvitems}
-        \item {Developed a C/C++ program to generate synthetic training data for a text recognizing CNN.}
-        \item{Training with data generator improved model accuracy by 10\% over results when trained on industry standard data sets.}
-	\item{See the research code at \underline{\href{https://github.com/niehusst/MapTextSynthesizer}{https://github.com/niehusst/MapTextSynthesizer}}}
-      \end{cvitems}
-    }
-
-  %grammiegram web app
-  \cventry
-    {GrammieGram LLC}
-    {Co-Founder and Full Stack Developer}
-    {Grinnell, IA}
-    {April-August 2018}
-    {
-      \begin{cvitems}
-        \item {Developed the backend for user preferences using Python and the Django framework.}
-        \item {Constructed and maintained unit testing for the GrammieGram web app.}
-        \item {Designed frontend UI for the contact management page using JavaScript and Bootstrap.}
-        %\item {Gained experience working remotely with a team using Git version control.}
-	\item {See the website at \underline{\href{https://grammiegram.com}{https://grammiegram.com}}}
-      \end{cvitems}
-    }
-
-  %frc programmer
-%  \cventry
-%    {First Robotics Competition, Team 6002}
-%    {Robot Programmer}
-%    {Kalamazoo, MI}
-%    {Oct. 2015 - May 2016}
-%    {
-%      \begin{cvitems}
-%        \item {Wrote Java code for the robot’s basic abilities and autonomous mode.}
-%      \end{cvitems}
-%    }
 
 \end{cventries}
 
@@ -198,35 +209,58 @@
 %---------------------------------------------------------------------------------------
 %extracurriculars
 %---------------------------------------------------------------------------------------
-%\cvsection{Interests and Activities}
-%\begin{cventries}
-
+\cvsection{Interests & Activities}
+\begin{cventries}
 % Captain of grinnell ultimate team
-%  \cventry
-%    {Grinnellephants Ultimate Frisbee}
-%    {Team Captain}
-%    {Grinnell, IA}
-%    {August 2018 - Present}
-%    {
-%      \begin{cvitems}
-%        \item {Gained experience as a teacher and leader.}
-%        \item {I work with others to regularly plan and execute practices 3 times a week.}
-%      \end{cvitems}
-%    }
+  \cventry
+    {Grinnellephants Ultimate Frisbee}
+    {Team Captain}
+    {Grinnell, IA}
+    {August 2018 - Present}
+    {
+      \begin{cvitems}
+        \item {Gained experience as a teacher and leader.}
+        \item {I work with others to regularly plan and execute practices 3 times a week.}
+      \end{cvitems}
+    }
 
-%android fun [ONLY PUT ACTUAL APPS IVE MADE HERE]
-%    \cventry
-%      {Personal Projects} 
-%      {Android App Development} %only mention specific projects
-%      {}
-%      {}
-%      {
-%        \begin{cvitems}
-%          \item {Making useful apps that help me with daily problems or tasks}
-%        \end{cvitems}
-%      }
+%android
+    \cventry
+      {}
+      {Android App Development}
+      {}
+      {}
+      {
+        \begin{cvitems}
+          \item {Making useful apps that help me with daily problems or tasks}
+        \end{cvitems}
+      }
 
-%\end{cventries}
+%frc programmer
+  \cventry
+    {First Robotics Competition, Team 6002}
+    {Robot Programmer}
+    {Kalamazoo, MI}
+    {Oct. 2015 - May 2016}
+    {
+      \begin{cvitems}
+        \item {Wrote Java code for the robot’s basic abilities and autonomous mode.}
+      \end{cvitems}
+    }
+
+%volunteer at animal shelter
+  \cventry
+    {Poweshiek Animal League Shelter}
+    {Volunteer}
+    {Grinnell, IA}
+    {Sep. 2016 - Current}
+    {
+      \begin{cvitems}
+        \item {Cleaned, cared for, and socialized cats and their environment.}
+      \end{cvitems}
+    }
+
+\end{cventries}
 
 
 %---------------------------------------------------------------------------------------
