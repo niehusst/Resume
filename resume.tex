@@ -19,7 +19,7 @@
 %     Configuration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Themes: Awesome-CV
-\documentclass[12pt, a4paper]{awesome-cv}
+\documentclass[11pt, a4paper]{awesome-cv}
 
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
@@ -84,32 +84,32 @@
   \cventry
     {Honey (PayPal)}
     {Software Engineer II (iOS)}
-    {Full Remote}
-    {February 2021-Present}
+    {Remote}
+    {February 2021 - Present}
     {
         \begin{cvitems}
-            \item {Developed UI for product detail and checkout pages using Swift and Xcode for the Honey iOS app.}
-            \item {Led the design and implementation of automated translation system for both mobile teams, saving ~6 hours of dev time each release.}
-            %\item {Implemented new toast notification UI, causing a 40\% increase in iOS checkout flow engagement.}
-            \item {Helped port the Honey iOS app from React Native to native Swift.}
-            \item {Created shared CI/CD distribution pipeline to make sharing SDKs between Honey and PayPal possible.}
-            %\item {Led multiple team culture/bonding activities, including regular bookclub and happy hour meetings.}
+            \item {Architected and built automated translation system in JavaScript for Honey mobile apps, saving 6 hours of dev time each release}
+            %\item {Implemented new toast notification UI, causing a 40\% increase in iOS checkout flow engagement}
+            \item {Developed product detail and checkout page UI using Swift and Xcode for the Honey iOS app}
+            \item {Ported the product detail page from React Native to native Swift}
+            \item {Created publishing pipeline with Jenkins to make sharing iOS and Android SDKs between Honey and PayPal possible}
+            \item {Led multiple team culture/bonding activities, including regular bookclub and happy hour meetings}
         \end{cvitems}
     }
 
   %Honey intern
-%  \cventry
-%    {Honey (PayPal)}
-%    {Software Engineering Intern (Android)}
-%    {Boulder, CO (remote)}
-%    {June-September 2020}
-%    {
-%        \begin{cvitems}
-%            \item {Fixed critical app accessibility issues for screen readers, keyboard navigation, and large font sizes}
-%            \item {Developed and maintained automated UI tests for CircleCI Continuous Integration and Continuous Deployment pipeline}
-%            \item {Built a showcase in Kotlin of custom UI components, enabling greater reuse and easier tweaking of their functionality}
-%        \end{cvitems}
-%    }
+  \cventry
+    {Honey (PayPal)}
+    {Software Engineering Intern (Android)}
+    {Remote}
+    {June-September 2020}
+    {
+        \begin{cvitems}
+            \item {Fixed all critical accessibility issues in the Honey Android app for screen readers, keyboard navigation, and large font sizes}
+            \item {Developed automated Espresso UI tests for the app that run in CircleCI CI/CD pipeline}
+            \item {Built a shared UI component showcase in Kotlin, enabling greater reuse and design consistency}
+        \end{cvitems}
+    }
 
 %hytrust intern
   \cventry
@@ -142,19 +142,19 @@
 
 
 %MAP project
-  \cventry
-    {Undergraduate Research Project, Image Synthesis for Machine Learning}
-    {Research Assistant}
-    {Grinnell, IA}
-    {June-August 2018}
-    {
-      \begin{cvitems}
-        \item{Developed a C/C++ program to generate synthetic training data for a text recognizing neural network}
-        \item{Training with our data generator improved model accuracy by 10\% over accuracy when trained on industry-standard data sets}
-	    \item{See the research code at \underline{\href{https://github.com/niehusst/MapTextSynthesizer}{https://github.com/niehusst/MapTextSynthesizer}}}
-	    %\item{See publication at \underline{\href{https://ieeexplore.ieee.org/abstract/document/8978121}{https://ieeexplore.ieee.org/abstract/document/8978121}}}
-      \end{cvitems}
-    }
+%  \cventry
+%    {Undergraduate Research Project, Image Synthesis for Machine Learning}
+%    {Research Assistant}
+%    {Grinnell, IA}
+%    {June-August 2018}
+%    {
+%      \begin{cvitems}
+%        \item{Developed a C/C++ program to generate synthetic training data for a text recognizing neural network}
+%        \item{Training with our data generator improved model accuracy by 10\% over accuracy when trained on industry-standard data sets}
+%	    \item{See the research code at \underline{\href{https://github.com/niehusst/MapTextSynthesizer}{https://github.com/niehusst/MapTextSynthesizer}}}
+%	    %\item{See publication at \underline{\href{https://ieeexplore.ieee.org/abstract/document/8978121}{https://ieeexplore.ieee.org/abstract/document/8978121}}}
+%      \end{cvitems}
+%    }
 
 
 %member of appdev grinnell
@@ -165,8 +165,8 @@
 %    {January 2018 - May 2020}
 %    {
 %      \begin{cvitems}
-%        \item {Perform quality assurance for the Grinnell Directory Android application.}
-%	       \item {Wrote tests using JUnit, Mockito and Espresso to support a large code base.}
+%        \item {Perform quality assurance for the Grinnell Directory Android application}
+%	       \item {Wrote tests using JUnit, Mockito and Espresso to support a large code base}
 %      \end{cvitems}
 %    }
 
@@ -179,9 +179,9 @@
     {April-August 2018}
     {
       \begin{cvitems}
-        \item {Developed the backend database design for user preferences using Python and the Django framework}
-        \item {Constructed and maintained unit testing for the GrammieGram web app}
+        \item {Developed the backend database design for user preferences using Python and Django}
         \item {Designed frontend UI for the contact management page using JavaScript and Bootstrap}
+        \item {Constructed and maintained pytest unit testing for the GrammieGram web app}
         %\item {Gained experience working remotely with a team using Git version control}
         %\item {See the website at \underline{\href{https://grammiegram.com}{https://grammiegram.com}}}
       \end{cvitems}
@@ -195,6 +195,38 @@
 %---------------------------------------------------------------------------------------
 \cvsection{Projects}
 \begin{cventries}
+
+
+% partyq
+  \cventry
+    {(side project)}
+    {partyq Android App}
+    {Fall 2020}
+    {}
+    {
+      \begin{cvitems}
+        \item{Distributed music queue mobile app that connects guests via bluetooth/wifi and plays music through the Spotify dev SDK}
+        \item{Developed in Kotlin using MVVM design pattern and released as open source}
+        %\item{Used Firebase for analytics + monitoring and beta release distribution}
+        \item{Used GitHub Actions and Fastlane tools to automate releases to the Play Store}
+        \item{See project at \underline{\href{https://github.com/niehusst/partyq}{https://github.com/niehusst/partyq}}}
+        \item{See on Google Play Store at \underline{\href{https://play.google.com/store/apps/details?id=com.niehusst.partyq}{https://play.google.com/store/apps/details?id=com.niehusst.partyq}}}
+      \end{cvitems}
+    }
+
+% FakeBlock
+  % \cventry
+  %   {(side project)}
+  %   {FakeBlock}
+  %   {Fall 2019}
+  %   {}
+  %   {
+  %     \begin{cvitems}
+  %       \item{Chrome browser extension for detecting and blocking fake news on Facebook through machine learning and fact-checking APIs}
+  %       \item{Built in JavaScript, using AJAX to make calls to Django API to get predictions from machine learning model hosted on remote server}
+  %       \item{See project at \underline{\href{https://fakeblocker.herokuapp.com/}{https://fakeblocker.herokuapp.com/}}}
+  %     \end{cvitems}
+  %   }
 
 % HackUIowa Compliance Accomplice
     \cventry
@@ -210,47 +242,16 @@
 	  \end{cvitems}
 	}
 
-% partyq
-  \cventry
-    {(side project)}
-    {partyq Android App}
-    {Summer 2020 - Current}
-    {}
-    {
-      \begin{cvitems}
-        \item{Distributed music queue mobile app that connects guests via bluetooth and wifi and plays music through the Spotify dev SDK}
-        %\item{Developed in Kotlin using MVVM design pattern and released as open source}
-        %\item{Used Firebase for analytics + monitoring and beta release distribution}
-        %\item{Used GitHub Actions and Fastlane tools to automate releases to the Play Store}
-        \item{See project at \underline{\href{https://github.com/niehusst/partyq}{https://github.com/niehusst/partyq}}}
-        \item{See on Google Play Store at \underline{\href{https://play.google.com/store/apps/details?id=com.niehusst.partyq}{https://play.google.com/store/apps/details?id=com.niehusst.partyq}}}
-      \end{cvitems}
-    }
-
-% FakeBlock
-  % \cventry
-  %   {(side project)}
-  %   {FakeBlock}
-  %   {Fall 2019}
-  %   {}
-  %   {
-  %     \begin{cvitems}
-  %       \item{Chrome browser extension for detecting and blocking fake news on Facebook through machine learning and fact-checking APIs}
-  %       \item{Built in JavaScript, using AJAX to make calls to custom API to get predictions from machine learning model hosted on remote server}
-  %       \item{See project at \underline{\href{https://fakeblocker.herokuapp.com/}{https://fakeblocker.herokuapp.com/}}}
-  %     \end{cvitems}
-  %   }
-
 %MyRSA
 %  \cventry
-%    {}
+%    {(side project)}
 %    {MyRSA}
 %    {June 2019}
 %    {}
 %    {
 %	\begin{cvitems}
-%	    \item{Implemented RSA encryption from scratch in C, using openSSL calculations.}
-%	    \item{Developed a TCP server using POSIX sockets for exchanging encrypted messages.}
+%	    \item{Implemented RSA encryption from scratch in C, using openSSL calculations}
+%	    \item{Developed a TCP server using POSIX sockets for exchanging encrypted messages}
 %	\end{cvitems}
 %    }
 
@@ -300,7 +301,7 @@
 
   \cvskill
     {Web}
-    {Django, APIs}
+    {Django}
 
   \cvskill
     {Mobile}
