@@ -1,3 +1,3 @@
 
 main:
-	xelatex resume.tex
+	echo "resume" | xelatex resume.tex
