@@ -14,9 +14,5 @@ To compile:
 ```
 make
 ```
-It will then spit out a bunch a text and pause, giving you a question mark prompt. Type in "resume"
-```
-? resume
-```
-At this point, it will throw a ton of errors. But rest assured, the `resume.pdf` has been compiled fully.
+It will then spit out a bunch of errors, but the `LiamNiehusStaab_resume.pdf` has been compiled fully.
 
