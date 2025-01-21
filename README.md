@@ -7,15 +7,10 @@ As stated on the source template GitHub page, this assumes you have latex instal
 
 On Arch Linux:
 ```
-sudo pacman -S texlive-core texlive-latexextra
+sudo pacman -S texlive-core texlive-latexextra texlive-xetex
 ```
 
 To compile:
-```
-xelatex resume.tex
-```
-
-Or, there is a `Makefile` in this project, but it's a bit janky (it also uses xelatex, so you still need that dep). Run:
 ```
 make
 ```
