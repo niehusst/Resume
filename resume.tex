@@ -12,7 +12,7 @@
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
-\usepackage{hyperref}
+%\usepackage{hyperref}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -23,9 +23,6 @@
 
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
-
-%%% Configure a directory location for sections
-\newcommand*{\sectiondir}{resume/}
 
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
@@ -39,13 +36,6 @@
 %\definecolor{text}{HTML}{414141}
 %\definecolor{graytext}{HTML}{414141}
 %\definecolor{lighttext}{HTML}{414141}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     3rd party packages
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Needed to divide into several files
-\usepackage{import}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Data
@@ -131,18 +121,18 @@
 %    }
 
 %hytrust intern
-  \cventry
-    {HyTrust Inc.}
-    {Software Engineering Intern}
-    {Mountain View, CA}
-    {June-August 2019}
-    {
-      \begin{cvitems}
-      	\item {Used openAPI to make public Python Django API self-documenting, making customer-facing documentation updates instantanious}
-	      \item {Increased products' network security by integrating SSL certificate validation between linked cloud VMs, utilizing openSSL}
-	      %\item {Used Coverity to locate and fix potential bugs in API code}
-      \end{cvitems}
-    }
+%  \cventry
+%    {HyTrust Inc.}
+%    {Software Engineering Intern}
+%    {Mountain View, CA}
+%    {June-August 2019}
+%    {
+%      \begin{cvitems}
+%      	\item {Used openAPI to make public Python Django API self-documenting, making customer-facing documentation updates instantanious}
+%	      \item {Increased products' network security by integrating SSL certificate validation between linked cloud VMs, utilizing openSSL}
+%	      %\item {Used Coverity to locate and fix potential bugs in API code}
+%      \end{cvitems}
+%    }
 
 %grammiegram android
   \cventry
@@ -229,7 +219,6 @@
         %\item{Used Firebase for analytics + monitoring and beta release distribution}
         \item{Used GitHub Actions and Fastlane tools to automate releases to the Play Store}
         \item{See project at \underline{\href{https://github.com/niehusst/partyq}{https://github.com/niehusst/partyq}}}
-        %\item{See on Google Play Store at \underline{\href{https://play.google.com/store/apps/details?id=com.niehusst.partyq}{https://play.google.com/store/apps/details?id=com.niehusst.partyq}}}
       \end{cvitems}
     }
 
