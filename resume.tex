@@ -135,19 +135,19 @@
 %    }
 
 %grammiegram android
-  \cventry
-    {GrammieGram LLC}
-    {Head of Android Development}
-    {Grinnell, IA}
-    {August 2018 - June 2019}
-    {
-      \begin{cvitems}
-        \item {Led a small team in an Agile environment with a test-driven approach to build out native Android experience}
-      	\item {Developed REST API in Python with Django for use iOS and Android apps}
-	      \item {Created a proof-of-concept mobile app in Java that mirrors the messaging behavior of our web app}
-	      %\item {See the code at \underline{\href{https://github.com/niehusst/GrammieGram-Android}{https://github.com/niehusst/GrammieGram-Android}}}
-      \end{cvitems}
-    }
+%  \cventry
+%    {GrammieGram LLC}
+%    {Head of Android Development}
+%    {Grinnell, IA}
+%    {August 2018 - June 2019}
+%    {
+%      \begin{cvitems}
+%        \item {Led a small team in an Agile environment with a test-driven approach to build out native Android experience}
+%      	\item {Developed REST API in Python with Django for use iOS and Android apps}
+%	      \item {Created a proof-of-concept mobile app in Java that mirrors the messaging behavior of our web app}
+%	      %\item {See the code at \underline{\href{https://github.com/niehusst/GrammieGram-Android}{https://github.com/niehusst/GrammieGram-Android}}}
+%      \end{cvitems}
+%    }
 
 
 %MAP project
@@ -190,7 +190,7 @@
       \begin{cvitems}
         \item {Developed the backend database design for user preferences using Python and Django}
         \item {Designed frontend UI for the contact management page using JavaScript and Bootstrap}
-        \item {Constructed and maintained pytest unit testing for the GrammieGram web app}
+        \item {Constructed and maintained pytest unit test suite}
         %\item {Gained experience working remotely with a team using Git version control}
         %\item {See the website at \underline{\href{https://grammiegram.com}{https://grammiegram.com}}}
       \end{cvitems}
@@ -205,6 +205,22 @@
 \cvsection{Projects}
 \begin{cventries}
 
+% net-go
+  \cventry
+    {(side project)}
+    {net-go Web App}
+    {2025}
+    {}
+    {
+      \begin{cvitems}
+        \item{A web app for playing the boardgame Go against your friends online}
+        \item{Created Monte Carlo simulation engine in a web worker to score games asynchronously}
+        \item{Implemented long-polling for real-time game state updates}
+        \item{Deployed on self-provisioned Linux VPS with GitHub Actions CI/CD automation}
+        \item{Built with Elm + Tailwind CSS on the frontend and Golang + MariaDB on the backend}
+        \item{Live site: \underline{\href{https://playonlinego.xyz}{https://playonlinego.xyz}} -- Source code: \underline{\href{https://github.com/niehusst/net-go}{https://github.com/niehusst/net-go}}}
+      \end{cvitems}
+    }
 
 % partyq
   \cventry
@@ -214,11 +230,12 @@
     {}
     {
       \begin{cvitems}
-        \item{Distributed music queue mobile app that connects guests via bluetooth/wifi and plays music through the Spotify dev SDK}
-        \item{Developed in Kotlin using MVVM design pattern and released as open source}
+        \item{A distributed music queue mobile app that connects guests via bluetooth/wifi and plays music through the Spotify dev SDK}
+        \item{Developed in Kotlin using MVVM design pattern and Android Views}
         %\item{Used Firebase for analytics + monitoring and beta release distribution}
         \item{Used GitHub Actions and Fastlane tools to automate releases to the Play Store}
-        \item{See project at \underline{\href{https://github.com/niehusst/partyq}{https://github.com/niehusst/partyq}}}
+        \item{Info site: \underline{\href{https://niehusstaab.com/partyq-website/}{https://niehusstaab.com/partyq-website/}}}
+        %\item{See project at \underline{\href{https://github.com/niehusst/partyq}{https://github.com/niehusst/partyq}}}
       \end{cvitems}
     }
 
@@ -237,18 +254,18 @@
   %   }
 
 % HackUIowa Compliance Accomplice
-    \cventry
-	{HackUIowa}
- 	{Compliance Accomplice}
-	{Oct 2018}
-	{}
-	{
-	  \begin{cvitems}
-	     \item{Developed email middleware using Python to detect and prevent SEC compliance violations using Natural Language Processing}
-	     \item{Won “Best Commercial Potential” and “Best use of Google Cloud” awards}
-	     \item{See project at \underline{\href{https://github.com/niehusst/ComplianceAccomplice}{https://github.com/niehusst/ComplianceAccomplice}}} 
-	  \end{cvitems}
-	}
+  %  \cventry
+	%{HackUIowa}
+ 	%{Compliance Accomplice}
+	%{Oct 2018}
+	%{}
+	%{
+	%  \begin{cvitems}
+	%     \item{Developed email middleware using Python to detect and prevent SEC compliance violations using Natural Language Processing}
+	%     \item{Won “Best Commercial Potential” and “Best use of Google Cloud” awards}
+	%     \item{See project at \underline{\href{https://github.com/niehusst/ComplianceAccomplice}{https://github.com/niehusst/ComplianceAccomplice}}} 
+	%  \end{cvitems}
+	%}
 
 %MyRSA
 %  \cventry
@@ -291,7 +308,7 @@
     {2016-2020}
     {
       \begin{cvitems}
-        \item {Major GPA: 3.76 \quad Overall GPA: 3.6}
+        \item {Major GPA: 3.76} % \quad Overall GPA: 3.6}
         %\item {Deans list Fall 2016 and Spring 2017}
       \end{cvitems}
     }
@@ -305,11 +322,11 @@
 \begin{cvskills}
   \cvskill
     {Programming Languages} 
-    {Python, Swift, Kotlin, Typescript, JavaScript, Java, C} 
+    {Python, Swift, Kotlin, Typescript, JavaScript, Java, C, Go} 
 
-%  \cvskill
-%    {Web}
-%    {Express.js, FastAPI, React}
+  \cvskill
+    {Web}
+    {Express.js, FastAPI, React, Tailwind CSS}
 
   \cvskill
     {Mobile}
